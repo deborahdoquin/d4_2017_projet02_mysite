@@ -1,0 +1,105 @@
+font-family: 'Playfair Display', serif;
+font-family: 'Open Sans', sans-serif;
+
+
+
+html {font-size: 1em;}
+
+body {
+  font-family: 'Noto Serif', serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #1D2731;
+
+}
+
+p {
+  margin: 0;
+}
+
+
+h1, h2, h3, h4, h5, {
+  font-family: 'Playfair Display', serif;
+
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin: 1.414em 0 0.5em;
+  margin-top: 0;
+  font-size: 7.5em;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  line-height: 90pt;
+}
+
+h2 {font-size: 4.236em;
+line-height: 50pt;
+font-family: 'Playfair Display', serif;
+}
+
+h3 {font-size: 2.618em;}
+
+h4 {
+  font-size: 3em;
+  font-family: 'Playfair Display', serif;
+}
+
+small, .font_small {font-size: 0.618em;}
+
+
+h5 {
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 1em;
+}
+
+h6 {
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 1em;
+}
+
+
+
+
+
+
+
+.nastyadvert h1 {
+
+}
+
+@media (max-width: 800px) {
+  h1{
+    font-size: 4em;
+      line-height: 50pt;
+    padding-top: 20%;
+  }
+    }
+@media (max-width: 400px) {
+    h1{
+        font-size: 4em;
+        padding-top: 40%;
+      }
+        }
+
+
+
+
+          }
+  h1{
+              font-size: 4em;
+              padding-top: 20%;
+    }
+    }
+
+
+    @media (max-width: 600px) {
+      h2 {
+        font-size: 3em;
+        line-height: 30pt;
+      }
