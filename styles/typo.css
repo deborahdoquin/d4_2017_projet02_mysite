@@ -35,11 +35,16 @@ h1 {
 }
 
 h2 {font-size: 4.236em;
-line-height: 50pt;}
+line-height: 50pt;
+font-family: 'Playfair Display', serif;
+}
 
 h3 {font-size: 2.618em;}
 
-h4 {font-size: 1.618em;}
+h4 {
+  font-size: 3em;
+  font-family: 'Playfair Display', serif;
+}
 
 small, .font_small {font-size: 0.618em;}
 
