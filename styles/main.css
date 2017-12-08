@@ -74,7 +74,7 @@ min-height: 100vh
  }
 
 
- .aboutme {
+ #aboutme {
      display: grid;
      grid-template-columns: 30% 10% 35% 20% 5%;
      background-color: white;
