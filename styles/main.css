@@ -213,12 +213,12 @@ min-height: 100vh
  .boxwork figure img {
 
  	-webkit-transition: .1s ease-in-out;
- 	transition: .2s ease-in-out;
+ 	transition: .1.5s ease-in-out;
 
  }
  .boxwork:hover img {
- 	-webkit-transform: scale(1.6);
- 	transform: scale(1.6);
+ 	-webkit-transform: scale(1.3);
+ 	transform: scale(1.3);
 
  }
 
@@ -229,8 +229,8 @@ min-height: 100vh
 
  }
  .photos figure:hover img {
- 	-webkit-transform: scale(1.6);
- 	transform: scale(1.6);
+ 	-webkit-transform: scale(1.3);
+ 	transform: scale(1.3);
 
  }
 
@@ -277,15 +277,29 @@ min-height: 100vh
 
 
  footer{
-justify-content: center;
-color: #FF514A;
- padding: 2em;
- background-color: #fff;
+   height: 50px;
  }
 
  footer a {
  color: black;
  text-decoration: none;
+ }
+
+ .linklist{
+   list-style-type: none;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+
+ .linklist li {
+
+ }
+
+ .linklist img {
+ max-width: 30px;
+ min-width: 30px;
+ margin: 10px;
  }
 
  .linklist{
@@ -297,6 +311,8 @@ color: #FF514A;
    display: inline;
    text-align: center;
    padding: 20px;
+   padding-bottom: 40px;
+
  }
 
 
